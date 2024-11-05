@@ -18,7 +18,27 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+:root{
+--bg-color : rgb(70, 130, 180);
+}
+
 body {
   margin: 0;
+  background-color: var(--bg-color);
   font-family: sans-serif;
+  min-height: 500vh;
+}
+
+
+.box-red{
+  
+  background-color: red;
+  height: 20px;
+}
+
+.mouse{
+  width: 20px;
+  height: 20px;
+  background-color: orange;
 }
